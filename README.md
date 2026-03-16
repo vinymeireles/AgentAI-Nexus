@@ -242,16 +242,15 @@ Possíveis evoluções da plataforma:
 
 Imagens do sistema:
 
-```
 ![Dashboard](assets/dashboard.png)
 
-![Dashboard](assets/agente.png)
+![Agente](assets/agente.png)
 
 ![Chat Inteligente](assets/chat.png)
 
-![Relatório](assets/relatorio.png)
-```
+![Insights Inteligente](assets/insights.png)
 
+![Relatório](assets/relatorio.png)
 ---
 
 # 👨‍💻 Autor
