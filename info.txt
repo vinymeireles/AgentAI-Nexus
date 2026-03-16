@@ -1,0 +1,39 @@
+**Para rodar no VSCode:** `cd streamlit_app && pip install -r requirements.txt && streamlit run app.py`.
+
+**Para Streamlit Cloud:** aponte o repositorio Github para `streamlit_app/app.py` como arquivo principal. 
+
+Todos os graficos Plotly, tabelas HTML estilizadas, KPIs coloridos, sidebar com filtros, e as 4 abas do dashboard original foram portados com fidelidade total ao design do Next.js.
+
+
+# sair do ambiente atual
+deactivate
+
+#Remover venv antiga
+Remove-Item -Recurse -Force venv
+
+# excluir o venv antigo
+rmdir /s /q venv
+
+# criar novo ambiente com python 3.12
+py -3.11 -m venv venv
+
+# ativar
+.\venv\Scripts\activate
+
+#instalação de Dependencias
+pip install -r requirements.txt
+
+python.exe -m pip install --upgrade pip
+
+# instalação das bibliotecas do projeto
+
+pip install -q streamlit streamlit-option-menu pandas numpy plotly scikit-learn crewai openai python-dotenv reportlab markdown fpdf PyPDF2 sqlalchemy 
+pyyaml
+
+
+# Habilitar o ambiente Python no VSCODE
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+
+#Salvar o arquivo requirements
+pip freeze > requirements.txt

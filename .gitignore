@@ -1,0 +1,9 @@
+# Ignorar ambiente virtual
+venv/
+__pycache__
+.env
+outros/
+add_user.py
+install.txt
+Steel_industry_data.csv
+migrate_olist_sqlite_to_supabase.py
