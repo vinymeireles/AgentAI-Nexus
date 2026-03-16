@@ -240,18 +240,12 @@ Possíveis evoluções da plataforma:
 
 # 📷 Screenshots
 
-Sugestão de adicionar ao repositório:
-
-```
-/assets/dashboard.png
-/assets/chat.png
-/assets/relatorio.png
-```
-
-E no README:
+Imagens do sistema:
 
 ```
 ![Dashboard](assets/dashboard.png)
+
+![Dashboard](assets/agente.png)
 
 ![Chat Inteligente](assets/chat.png)
 
