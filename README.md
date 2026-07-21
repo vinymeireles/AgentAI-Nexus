@@ -96,31 +96,14 @@ Os relatórios são pensados para **gestores, executivos e diretores.**
 
 ---
 
-# 🏗 Arquitetura da Plataforma
+# 🏗 System Architecture
 
-```
-                ┌────────────────────┐
-                │     Streamlit UI   │
-                │  Dashboards + Chat │
-                └─────────┬──────────┘
-                          │
-                          ▼
-                 ┌─────────────────┐
-                 │  Orchestrator   │
-                 │     Agent       │
-                 └───────┬─────────┘
-                         │
-     ┌──────────────┬──────────────┬──────────────┐
-     ▼              ▼              ▼              ▼
-Sales Agent   Customer Agent   Growth Agent   Finance Agent
+A arquitetura do AgentAI Nexus segue uma abordagem em camadas, composta por uma interface web desenvolvida em Streamlit,
+um orquestrador baseado em CrewAI responsável por coordenar agentes especializados, uma camada de acesso a dados via SQL e um banco PostgreSQL hospedado no Supabase.
+Os resultados das análises são disponibilizados em dashboards interativos, chat em linguagem natural e relatórios executivos em PDF.
 
-                         │
-                         ▼
-                   SQL Tool Layer
-                         │
-                         ▼
-                PostgreSQL / Supabase
-```
+![Dashboard](assets/Diagrama.png)
+
 
 ---
 
