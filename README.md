@@ -102,7 +102,7 @@ A arquitetura do AgentAI Nexus segue uma abordagem em camadas, composta por uma 
 um orquestrador baseado em CrewAI responsável por coordenar agentes especializados, uma camada de acesso a dados via SQL e um banco PostgreSQL hospedado no Supabase.
 Os resultados das análises são disponibilizados em dashboards interativos, chat em linguagem natural e relatórios executivos em PDF.
 
-![Dashboard](assets/Diagrama.png)
+![Dashboard](assets/Diagrama2.png)
 
 
 ---
